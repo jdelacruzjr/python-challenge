@@ -21,13 +21,13 @@ value = 0
 # Counter to track Changes in Total Profit & Loss
 change = 0
 
-# List to hold Dates of financial activity in dataset
+# List to store Dates of financial activity in dataset
 dates = []
 
-# List to hold Profits/Losses
+# List to store Profits/Losses
 profits = []
 
-# Read csv file
+# Read csv file and Identify delimiter
 with open(data_path, newline="") as budget_file:
     csvreader = csv.reader(budget_file, delimiter=",")
     
